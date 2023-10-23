@@ -1,0 +1,9 @@
+type ReplyContentReactDetail {
+    replyContentReactId: String
+
+    account: Account
+
+    dateReact: Int
+
+    replyContent: ReplyContent
+}

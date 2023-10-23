@@ -1,0 +1,10 @@
+type TopicReactDetail {
+
+    topicReactId: String
+
+    account: Account
+
+    dateReact: Int
+
+    topic: DiscussionTopic
+}

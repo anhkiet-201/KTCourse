@@ -1,0 +1,12 @@
+type DiscussionGroup {
+
+    groupId: String
+
+    name: String
+
+    description: String
+
+    course: Course
+
+    discussionTopics: [DiscussionTopic]
+}

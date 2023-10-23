@@ -1,0 +1,22 @@
+type Course {
+
+    courseId: String
+
+    name: String
+
+    description: String
+
+    thumbnailUrl: String
+
+    dateCreated: Int
+
+    owner: Account
+
+    category: Category
+
+    discussionGroups: [DiscussionGroup]
+
+    exams: [Exam]
+
+    lessons: [Lesson]
+}

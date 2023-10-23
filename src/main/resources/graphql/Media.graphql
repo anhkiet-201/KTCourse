@@ -1,0 +1,16 @@
+type Media {
+
+    mediaId: String
+
+    dateCreate: Int
+
+    type: String
+
+    description: String
+
+    mediaUrl: String
+
+    examMedia: [ExamMedia]
+
+    topicMedia: [TopicMedia]
+}

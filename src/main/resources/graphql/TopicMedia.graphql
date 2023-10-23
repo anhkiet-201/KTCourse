@@ -1,0 +1,7 @@
+type TopicMedia {
+    id: String
+
+    topic: DiscussionTopic
+
+    media: Media
+}

@@ -1,0 +1,8 @@
+type Category {
+
+    categoryId: String
+
+    name: String
+
+    descrition: String
+}

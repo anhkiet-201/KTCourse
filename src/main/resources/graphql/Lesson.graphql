@@ -1,0 +1,12 @@
+type Lesson {
+
+    lessonId: String
+
+    title: String
+
+    description: String
+
+    mediaUrl: String
+
+    course: Course
+}

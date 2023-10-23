@@ -1,0 +1,10 @@
+type Account {
+    uid: String
+    email: String
+    firstName: String
+    lastLame: String
+    dateCreated: Int
+    avatarUrl: String
+    shortName: String
+    birthDay: Int
+}

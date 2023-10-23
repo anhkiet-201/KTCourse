@@ -1,0 +1,18 @@
+type ReplyContent {
+
+    replyContentId: String
+
+    replyContentReactDetails: ReplyContentReactDetail
+
+    dateCreated: Int
+
+    account: Account
+
+    replyContentOtherId: String
+
+    content: String
+
+    totalReact: Int
+
+    topic: DiscussionTopic
+}

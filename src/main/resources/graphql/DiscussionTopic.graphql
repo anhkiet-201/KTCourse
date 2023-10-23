@@ -1,0 +1,24 @@
+type DiscussionTopic {
+
+    topicId: String
+
+    dateCreated: Int
+
+    title: String
+
+    account: Account
+
+    group: DiscussionGroup
+
+    content: String
+
+    totalReply: Int
+
+    totalReact: Int
+
+    replyContents: [ReplyContent]
+
+    topicMedia: [TopicMedia]
+
+    topicReactDetails: [TopicReactDetail]
+}
