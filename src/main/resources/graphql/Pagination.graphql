@@ -1,0 +1,9 @@
+
+union Pageable = Category | Course | DiscussionTopic | Exam | ExamMedia | Lesson | Media | ReplyContent | ReplyContentReactDetail | TopicMedia | TopicReactDetail
+type Pagination {
+    totalPage: Int!
+    currentPage: Int!
+    totalItem: Int!
+    hasNext: Boolean!
+    items: [Pageable]!
+}

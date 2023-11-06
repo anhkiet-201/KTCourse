@@ -6,3 +6,8 @@ type Category {
 
     descrition: String
 }
+
+extend type Query {
+    getKTCourseCategories: [Category]!
+    getCourseByCategoryId(categoryId: String): Pagination!
+}

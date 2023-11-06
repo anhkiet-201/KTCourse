@@ -1,0 +1,13 @@
+type Auth {
+    token: String!
+    account: Account!
+}
+
+extend type Query {
+    dsf:String
+}
+
+extend type Mutation {
+    login(email: String!, password: String!): Auth
+    register(email: String!, password: String!, firstName: String!, lastName: String!): Auth
+}

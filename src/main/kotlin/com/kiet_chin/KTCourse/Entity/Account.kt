@@ -8,6 +8,7 @@ import java.time.LocalDate
 open class Account {
     @Id
     @Column(name = "uid", nullable = false)
+    @GeneratedValue(strategy = GenerationType.UUID)
     open var uid: String? = null
 
     @Column(name = "email", nullable = false)
@@ -17,7 +18,7 @@ open class Account {
     open var firstName: String? = null
 
     @Column(name = "last_lame", nullable = false)
-    open var lastLame: String? = null
+    open var lastName: String? = null
 
     @Column(name = "date_created", nullable = false)
     open var dateCreated: LocalDate? = null

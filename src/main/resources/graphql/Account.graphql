@@ -2,7 +2,7 @@ type Account {
     uid: String
     email: String
     firstName: String
-    lastLame: String
+    lastName: String
     dateCreated: Int
     avatarUrl: String
     shortName: String
